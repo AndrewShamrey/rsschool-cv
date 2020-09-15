@@ -28,6 +28,10 @@ Enthusiastic, highly organized and detail-oriented _Frontend Software Engineer_ 
  - 2020 — CCNA Networking Essentials.
 
 --- 
+### ***Work Experience***
+
+
+--- 
 ### ***Skills***
 
  - Experience in graphic editors (*Photoshop*, *Illustrator*, *AutoCAD*, *Visio* and *CorelDraw*).
@@ -43,4 +47,3 @@ Enthusiastic, highly organized and detail-oriented _Frontend Software Engineer_ 
  - English — Intermediate.
  - Hobbies: playing guitar, cooking.
  - Additional education: State Educational Institution "Lida Children's School of Arts", instruments — guitar, button accordion (2009-2016).
-
