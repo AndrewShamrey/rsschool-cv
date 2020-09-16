@@ -3,7 +3,7 @@
 ---
 **Date of birth** — 30th November 2000
 
-**Adress** — 4 L.Beda's St, Minsk, 220040, Belarus 
+**Address** — 4 L.Beda's St, Minsk, 220040, Belarus 
 
 **Phone number** — +372(29)536-62-91 
 
