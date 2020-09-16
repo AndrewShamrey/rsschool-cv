@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Areal", sans-serif;
+  }
+
+  body {
+    background: #585c68;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+  }
+
+  a {
+    color: #acd8e7; 
+    text-decoration: none;
+  }
+
+  .resume {
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+  }
+
+  .bold {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .left {
+    width: 280px;
+    background: #335384;
+  }
+
+  .left .regular {
+    color: #acd8e7;
+  }
+
+  .left .bold {
+      color: #fff;
+  }
+
+  .right {
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+  }
+
+  .right .bold {
+    color: #335384;
+  }
+
+  .right .semi_bold {
+    font-weight: 700;
+    font-size: 16px;
+  }  
+  
+  .photo {
+    width: 100%;
+    height: 280px;
+  }
+
+  .photo img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .left_content {
+    padding: 0 25px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .resume_item {
+    padding: 25px 0;
+    border-bottom: 2px solid #fff;
+  }
+
+  .right .resume_item {
+    border-bottom: 2px solid #335384;
+  }
+  
+  .left .resume_item:last-child,
+  .right .resume_item:last-child {
+    border-bottom: 0px;
+  }
+
+  .left ul li {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .left ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .left ul li .icon {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #335384;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding: 5px 0px 0px 5px;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .mark {
+    width: 20px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 5px 0px 0px 5px;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .music_edu,
+  .language {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 5px 0px 0px 5px;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .left ul li .data {
+    color: #acd8e7;
+  }
+
+  .mail {
+    font-size: 12px;
+  }
+
+  .skill_name {
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+  }
+
+  .skill_name .lang{
+    margin-right: 44px;
+  }
+
+  .add_info ul li,
+  .skills ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: #acd8e7;
+    line-height: 1.3;
+  }
+
+  .right {
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+  }
+
+  .summary {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: justify;
+  }
+
+  .education ul {
+    padding-left: 40px;
+    overflow: hidden;
+  }
+
+  .right ul li {
+    position: relative;
+  }
+
+  .right ul li .date {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .right ul li .info {
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  
+  .right ul li:last-child .info {
+    margin-bottom: 0;
+  }
+  
+  .education ul li:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #335384;
+  }
+
+  .education ul li:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -21px;
+    width: 2px;
+    height: 150px;
+    background: #335384;
+  }
+
+  .hobby ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hobby ul li {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #335384;
+    border-radius: 50%;
+    position: relative;
+    color: #335384;
+  }
+
+   .hobby ul li img {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+  }
+
+  .hobby ul li:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: -119px;
+    width: 116px;
+    height: 2px;
+    background:#335384;
+  }
+  
+  .hobby ul li:last-child:before {
+    display: none;
+  }
