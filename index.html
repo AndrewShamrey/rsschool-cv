@@ -8,7 +8,7 @@
 </head>
 <body>
     <main class="resume">
-        <section class="left">
+        <aside class="left">
             <h5 class="hidden-text">Left</h5>
             <div class="photo">
                 <img src="https://i.imgur.com/QgmJhGK.png" alt="my-photo">
@@ -102,8 +102,8 @@
                                     <img src="https://i.imgur.com/odBSjXN.png" alt="language" width="25" height="25">
                                 </div>
                                 <h4 class="data lang">
-                                    <p>Russian — Native</p>
-                                    <p>English — Intermediate</p>
+                                    <span>Russian — Native</span>
+                                    <span>English — Intermediate</span>
                                 </h4>
                             </section>
                         </li>
@@ -113,18 +113,18 @@
                                     <img src="https://i.imgur.com/CFRdiOd.png" alt="education" width="25" height="26">
                                 </div>
                                 <h4 class="data">
-                                    <p>Additional education: State Educational Institution “Lida Children’s School of Arts”, 
-                                        instruments — guitar, button accordion (2009-2016)</p>
+                                    <span>Additional education: State Educational Institution “Lida Children’s School of Arts”, 
+                                        instruments — guitar, button accordion (2009-2016)</span>
                                 </h4>
                             </section>
                         </li>
                     </ul>
                 </section>
             </div>
-        </section>
+        </aside>
         <section class="right">
             <h5 class="hidden-text">Right</h5>
-            <section class="resume_item">
+            <article class="resume_item">
                 <h3 class="bold title">Summary</h3>
                 <p class="summary">
                     Enthusiastic, highly organized and detail-oriented Frontend Software Engineer 
@@ -132,7 +132,7 @@
                     to use my skills in coding, troubleshooting complex problems, and assisting in 
                     the timely completion of projects.
                 </p>
-            </section>
+            </article>
             <section class="resume_item work_exp">
                 <h3 class="bold title">Work Experience</h3>
             </section>
@@ -141,21 +141,37 @@
                 <ul>
                     <li>
                         <p class="date">2018 - present</p>
-                        <section class="info">
+                        <article class="info">
                             <h3 class="semi_bold">Belarusian State University of Informatics and Radioelectronics</h3>
                             <p>Faculty of Computer-Aided Design, Programmable mobile systems, Third year of study, Electronic systems engineer. 
                                 Bachelor’s degree in progress.</p>
-                        </section>
+                        </article>
                     </li>
                     <li>
                         <p class="date">2020</p>
-                        <section class="info">
+                        <article class="info">
                             <h3 class="semi_bold">Cisco Certified Network Associate</h3>
                             <p>Routing and Switching: Introduction to Networks.</p>
                             <p>Networking Essentials.</p>
-                        </section>
+                        </article>
                     </li>
                 </ul>
+            </section>
+            <section class="resume_item code">
+                <h3 class="bold title">Sample code</h3>
+                <pre class="sample-code">
+                    <code><span class="keyword-violet">const</span> <span class="keyword-red">React</span> = require(<span class="keyword-green">'react'</span>);
+                    <span class="keyword-violet">function</span> <span class="keyword-red">Hello</span>(){
+                        <span class="keyword-violet">return</span> &lt;h1&gt;Hello&lt;/h1&gt;;
+                    }
+                    <span class="keyword-violet">function</span> <span class="keyword-red">World</span>(){
+                        <span class="keyword-violet">return</span> &lt;h2&gt;World!&lt;/h2&gt;;
+                    }
+                    <span class="keyword-violet">class</span> <span class="keyword-red">Greet</span> <span class="keyword-violet">extends</span> React.<span class="keyword-blue">Component</span> {
+                        <span class="keyword-blue">render</span>() {
+                            <span class="keyword-violet">return</span> &lt;div&gt;&lt;Hello /&gt;&lt;World /&gt;&lt;/div&gt;;    
+                        }
+                    }</code></pre>
             </section>
             <section class="resume_item hobby">
                 <h3 class="bold title">Hobby</h3>
@@ -179,5 +195,13 @@
               </section>
         </section>
     </main>
+    <footer>
+        <div class="footer-text">
+          <a class="footer-logo-link" href="https://rs.school/js/">
+            <img src="./rs_school_js.svg" alt="rs_logo"></img>
+          </a>
+          <a class="author-git" href="https://github.com/AndrewShamrey">©AndrewShamrey, 2021</a>
+        </div>
+    </footer>
 </body>
 </html> 
